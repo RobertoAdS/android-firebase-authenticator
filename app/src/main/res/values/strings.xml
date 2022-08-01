@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Authenticator</string>
+    <string name="john_doe">John Doe</string>
+    <string name="password_hint">*********</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>
