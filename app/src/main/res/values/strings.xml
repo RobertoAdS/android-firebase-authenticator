@@ -4,4 +4,12 @@
     <string name="password_hint">*********</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="new_account">New Account</string>
+    <string name="login_button">Login button</string>
+    <string name="register">Register</string>
+    <string name="create_a_new_account_for_free">Create a new account for free</string>
+    <string name="back_to_login">BACK TO LOGIN</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
