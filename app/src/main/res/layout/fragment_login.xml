@@ -5,29 +5,31 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal|center_vertical"
     android:orientation="vertical"
-    android:padding="32dp">
+    android:padding="32dp"
+    tools:context=".LoginFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/register"
+        android:text="@string/login"
         android:textSize="32sp"
         android:textStyle="bold"
-        android:textColor="#555"/>
+        android:textColor="@color/text_primary"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="@string/create_a_new_account_for_free"
-        android:textColor="#78909C"
+        android:text="@string/already_have_an_account"
+        android:textColor="@color/text_secondary"
         android:textSize="20sp" />
+
     <TextView
         android:id="@+id/usernameText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/username"
-        android:textColor="#555"
+        android:textColor="@color/text_primary"
         android:textSize="20sp"
         android:layout_marginBottom="3dp"/>
 
@@ -46,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/password"
-        android:textColor="#555"
+        android:textColor="@color/text_primary"
         android:textSize="20sp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="3dp"/>
@@ -66,15 +68,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:contentDescription="@string/register"
-        android:text="@string/register"
-        tools:ignore="DuplicateSpeakableTextCheck" />
+        android:contentDescription="@string/login_button"
+        android:text="@string/login"
+        android:backgroundTint="@color/purple_500"
+        tools:ignore="RedundantDescriptionCheck" />
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/back_to_login"
-        android:backgroundTint="#f3e8ff"
-        android:textColor="@color/purple_500"/>
+        android:text="@string/new_account"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/purple_700"/>
 
 </LinearLayout>
