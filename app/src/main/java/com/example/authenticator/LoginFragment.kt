@@ -39,6 +39,7 @@ class LoginFragment : Fragment() {
                 passwordEditText.error = "Password cannot be empty"
                 passwordEditText.requestFocus()
             } else {
+                loginButton.isEnabled = false
                 firebaseAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener {
                     if (it.isSuccessful) {
                         Toast.makeText(activity, "User logged in successfully", Toast.LENGTH_SHORT).show()
