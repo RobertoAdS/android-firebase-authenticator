@@ -14,6 +14,10 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Authenticator/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Authenticator/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Authenticator/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_congratulations.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2817028985507246" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.35625" />
       </map>
     </option>
   </component>
